@@ -3,64 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merry Christmas Yến Nhi</title>
+    <title>Merry Christmas, Yến Nhi!</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-            color: #333;
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            color: #444;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             text-align: center;
-            padding: 50px;
         }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
+        .card {
             background: white;
             border-radius: 15px;
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #d72638;
-            font-size: 3rem;
+            color: #ff6b6b;
+            font-size: 2.5rem;
+            margin: 0 0 10px;
         }
         p {
             font-size: 1.2rem;
             line-height: 1.6;
         }
         .heart {
-            color: #e63946;
             font-size: 2rem;
-            margin: 10px 0;
+            color: #ff4757;
+            margin: 20px 0;
         }
         .btn {
             display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1rem;
-            background: #ff6b6b;
+            background: #ffa502;
             color: white;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: background 0.3s;
             text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1rem;
+            transition: background 0.3s;
         }
         .btn:hover {
-            background: #e63946;
+            background: #e84118;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Merry Christmas, Yến Nhi! 🎄</h1>
+    <div class="card">
+        <h1>Merry Christmas 🎄</h1>
         <p>
-            Gửi đến Nguyễn Thị Yến Nhi, embe iuu cụa anhhh. <br>
-            Giáng sinh năm nay, anh chỉ mong một điều ước: Được nhìn thấy em cười thật tươi và hạnh phúc mãi bên anh. Chúc em một mùa Giáng sinh thật ấm áp, tràn đầy yêu thương, và những điều tốt đẹp nhất.
+            Gửi đến Yến Nhi, embe iuuuuuuu!<br>
+            Chúc em một Giáng sinh ngập tràn yêu thương, niềm vui và hạnh phúc.<br>
+            Anh cảm thấy thật may mắn khi có em trong cuộc đời.
         </p>
-        <p class="heart">❤️ Love you forever! ❤️</p>
-        <a href="#" class="btn">Click để nhận thêm điều bất ngờ 🎁</a>
+        <p class="heart">❤️ Yêu em rất nhiều! ❤️</p>
+        <a href="#" class="btn">Nhấn để nhận quà bất ngờ 🎁</a>
     </div>
 </body>
 </html>
-# merry-christmas
